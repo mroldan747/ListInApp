@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <th:block th:include="fragments/head.html :: head"> </th:block>
+    <link rel="stylesheet" th:href="@{/css/login.css}">
+    <title>ListIn | Login</title>
+</head>
+<body class="login">
+<form action="post">
+    <input type="password">
+</form>
+</body>
+</html>
